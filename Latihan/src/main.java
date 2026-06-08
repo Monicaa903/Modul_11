@@ -64,9 +64,10 @@ public class main {
         } catch (FileNotFoundException e) {
             System.out.println("Ditangkap : " + e.getMessage());
         } finally {
-            System.out.println("\n>> Sesi Sistem Rencana Studi telah ditutup. Koneksi database diputuskan. <<");
+            System.out.println("\n>> Sesi Sistem Rencana Studi telah ditutup. Koneksi database diputuskan.");
         }
 
         scanner.close();
     }
 }
+
